@@ -1,0 +1,40 @@
+Diffrence between document and window objects
+
+Document:-
+=> It represents any HTML document or web page that is loaded in the browser.
+=> It is loaded inside the window.
+=> It is the object of window property.
+=> All the tags, elements with attributes in HTML are part of the document.
+=> We can access the document from a window using the window. document
+=> The document is part of BOM (browser object model) and dom (Document object model)
+=> Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+=> syntax: document.propertyname;
+=> example: document.title :  will return the title of the document
+=> The properties related to it are stored in the document object.
+=> It is the root element of the document object model.
+=> It represents the structure of the web page as a whole and provides access to the content of the page, as well as methods for manipulating that content.
+=> It contains information about the content of the page, like the URL, the title, the content, and the links.
+=> It provides access to the content of the page, as well as methods for manipulating that content.
+=> Its properties include title, lastModified, body, head, etc.
+=> JavaScript windows methods are: getElementById(), createElement(), querySelector(), querySelectorAll(), etc.
+=> It is available globally.
+
+
+Window:-
+=> It represents a browser window or frame that displays the contents of the webpage.  
+=> It is the very first object that is loaded in the browser.  
+=> It is the object of the browser.
+=> Global objects, functions, and variables of JavaScript are members of the window object.
+=> We can access the window from the window only. i.e. window.window
+=> The window is part of BOM, not DOM.
+=> Properties of the window object cannot be accessed by the document object.
+=> syntax: window.propertyname;
+=> example: window.innerHeight : will return the height of the content area of the browser
+=> The properties related to it are stored in the window object.
+=> The window is the global element for all objects, functions, etc.
+=> It provides access to the browser's history, location, and other properties and methods that allow us to interact with the browser window itself.
+=> It contains information about the browser window, like the size, the document the window contains, and the window’s history.
+=> It can access it directly using the window keyword.
+=> Its properties include location, history, innerWidth, innerHeight, etc.
+=> JavaScript windows methods are: open(), close(), scrollTo(), alert(), etc.
+=> It is available globally.

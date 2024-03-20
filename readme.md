@@ -1,0 +1,1 @@
+I have researched about difference between document and window object 
